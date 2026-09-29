@@ -1,16 +1,71 @@
-# React + Vite
+# React Zod Form Validation
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A simple and modern form validation project built using **React** and **Zod**.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Name validation
+* Email validation
+* 10-digit phone number validation
+* Error messages for invalid inputs
+* Form submission handling
+* Zod `safeParse()` for validation
+* React `useState` for managing form data and errors
+* Responsive and modern UI
 
-## React Compiler
+## 🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React
+* JavaScript
+* Zod
+* HTML
+* CSS
+* Vite
 
-## Expanding the Oxlint configuration
+## 📋 Validation Rules
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+| Field | Validation                     |
+| ----- | ------------------------------ |
+| Name  | Required                       |
+| Email | Must be a valid email          |
+| Phone | Must contain exactly 10 digits |
+
+## ▶️ How to Run
+
+Clone the repository:
+
+```bash
+git clone YOUR_REPOSITORY_URL
+```
+
+Go to the project folder:
+
+```bash
+cd YOUR_PROJECT_FOLDER
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+## 📚 What I Learned
+
+* How to create controlled inputs in React
+* How to validate forms using Zod
+* How `safeParse()` works
+* How to display field-specific validation errors
+* How to manage form state using `useState`
+
+## 👩‍💻 Author
+
+**Mushfiya Khan**
+
+Built as a React form validation practice project.
